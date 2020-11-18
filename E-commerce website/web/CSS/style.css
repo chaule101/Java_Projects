@@ -1,0 +1,368 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Myriad Pro";
+}
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow:  0 3px 7px 0 #ccc;
+	overflow: hidden;
+}
+.logo{
+	margin: 40px 0 15px 20px;
+	float: left;
+}
+.logo p:first-child{
+	color: chocolate;
+	font-size: 35pt;
+}
+.logo p:last-child{
+	margin-top: -15px;
+	color: #808080;
+	font-size: 15pt;
+}
+.top-right{
+	float: right;
+	margin: 22px 20px 0 0;
+	position: relative;
+}
+.top-right .right{
+	display: inline;
+}
+.search{
+	position: relative;
+}
+.search input{
+	width: 150px;
+	padding: 5px 35px 5px 10px;
+	border-radius: 3px;
+	background-color: #f6f6f6;
+	border: none;
+	font-size: 11pt;
+}
+.search img{
+	position: absolute;
+	left: 120px;
+	width: 25px;
+	cursor: pointer;
+}
+.currency select, .language select{
+	background-color: #f6f6f6;
+	border: none;
+	width: 130px;
+	border-radius: 3px;
+	padding: 4px;
+	font-size: 11pt;
+	color: #808080;
+}
+.login-res{
+	position: absolute;
+	right: 30px;
+	margin-top: 15px;
+	font-size: 12pt;
+}
+.login{
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	background-color: dodgerblue;
+	color: #fff;
+	padding: 7px 15px;
+}
+.res{
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	background-color: orchid;
+	color: #fff;
+	padding: 7px 15px;
+	margin-right: -30px;
+}
+.clear{
+	height: 5px;
+	background-color: #f1f1f1;
+	clear: both;
+}
+.head-top{
+	font-size: 13pt;
+	margin: 10px 20px;
+}
+.head-top ul{
+	float: left;
+}
+.head-top ul li{
+	cursor: pointer;
+	display: inline;
+	color: #64a4a4;
+	margin-right: 15px;
+}
+.head-top .cart{
+	float: right;
+}
+.cart img{
+	float: left;
+	margin: -5px 15px 7px 0;
+}
+.cart p{
+	float: left;
+	font-weight: bold;
+	color: #808080;
+}
+.cart p span{
+	color: #161ae0;
+	font-weight: normal;
+}
+.menu{
+	margin: 0 20px;
+	border-radius: 3px;
+	background-color: gold;
+}
+.menu .list-menu{
+	padding-left: 80px;
+	padding-right: 80px;
+	
+	
+}
+.menu .list-menu>li{
+	display: inline-block;
+	padding: 20px;
+	color: #de360f;
+	font-size: 13pt;
+	border-right: 1px dotted red;
+	cursor: pointer;
+	margin-left: -4px;
+	font-family: 
+		Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+}
+.menu .list-menu>li:first-child{
+	border-radius: 3px 0 0 3px;
+}
+.menu .list-menu>li:last-child{
+	border-right: none;
+}
+.menu .list-menu>li:hover{
+	background-color: darkorange;
+}
+.container-menu{
+	border: 2px solid #214ad1;
+	background-color: #fff;
+	padding: 10px;
+	overflow: hidden;
+	border-radius: 3px;
+	position: absolute;
+	margin: 10px 0 0 -10px;
+	display: none;
+	box-shadow: 0 3px 7px 0 #ccc;
+	z-index: 99999;
+}
+.menu-child{
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.menu-child:nth-child(3){
+	margin-right: 0;
+}
+.menu-child p{
+	color: #64a4a4;
+	font-size: 14pt;
+	padding-bottom: 5px;
+	border-bottom: 4px solid #f8f8f8;
+}
+
+.menu-child ul li{
+	display: block;
+	color: red;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.list-menu>li:hover .container-menu{
+	display: block;
+}
+.menu-child li:hover{
+	color: #1c1c1c;
+}
+#slider{
+    width: 940px;
+    margin: 7px auto;
+    position: relative;
+    overflow:hidden;
+}
+.slide{
+    float:left;
+    text-align:center;
+}
+.slide img{
+	width: 100%;
+}
+.banner{
+	display: block;
+	width: 940px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.title{
+	font-size: 25pt;
+	color: crimson;
+	padding: 7px 20px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+	
+}
+.content{
+	padding: 10px 20px;
+	color: #808080;
+}
+.products{
+	padding: 10px 0 20px 20px;
+	overflow: hidden;
+}
+.item{
+	width: 200px;
+	height: 300px;
+	float: left;
+	border: 1px solid #f8f8f8;
+	margin-right: 17px;
+	padding: 10px;
+}
+.item p:nth-child(2), .item p:nth-child(3){
+	font-size: 11pt;
+	color: #2d2d2d;
+}
+.item p:nth-child(4){
+	color: #de360f;
+}
+.item p:nth-child(4) span{
+	color: #2d2d2d;
+	text-decoration: line-through;
+}
+.item img{
+	width: 100%;
+}
+.item p {
+	text-align: center;
+}
+.buy{
+	cursor: pointer;
+	border: none;
+	padding: 8px 20px;
+	background-color: coral;
+	color: #fff;
+	border-radius: 8px;
+	margin-top: 5px;
+	margin-left: 50px;
+}
+.contact{
+	background-color: grey;
+	width: 100%;
+	overflow: hidden;
+}
+.contact-item{
+	width: 205px;
+	height: 300px;
+	padding: 20px;
+	float: left;
+	
+}
+.contact-item>.title{
+	text-align: center;
+	font-size: 15pt;
+	color: yellow;
+}
+.first p, .second p{
+	font-size: 11pt;
+	padding: 7px 0;
+}
+.first p:nth-child(3), .second p:nth-child(3),
+.second p:nth-child(4), .second p:nth-child(5){
+	border-bottom: 1px solid #808080;
+}
+.first p span{
+	color: #de360f;
+}
+.thirst img{
+	cursor: pointer;
+	margin-top: 7px;
+	width: 100%;
+}
+.fourth ul{
+	list-style-image: url('images/arrow.png');
+}
+.fourth ul li{
+	margin-top: 7px;
+}
+.footer{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+.footer-item{
+	width: 205px;
+	height: 160px;
+	padding: 20px;
+	float: left;
+}
+.footer-item ul{
+	list-style-image: url('images/arrow.png');
+	margin-left: 20px;
+}
+.footer-item ul li{
+	color: #808080;
+	cursor: pointer;
+	margin-top: 6px;
+}
+.privary{
+	font-size: 17px;
+	padding: 15px 20px;
+	text-align: center;
+
+}
+
+.time{
+	position: relative;
+	top: 70px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+	border: 1px solid #999;
+	padding: 20px;
+	box-shadow: 0 0 5px 3px #ccc;
+	width: 500px;
+}
+
+.info {
+	font-size: 20px;
+}
+
+.hot{
+	font-style: inherit;
+	font-size: 30px;
+	color: #de360f;
+}
+.nhap-nhay{
+    color: red;
+    animation-name: blink;
+    animation-duration: 1.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes blink{
+    0% {visibility: hidden;}
+    25% {visibility: hidden;}
+    100% {visibility: visible;}
+}
+item img{
+	-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+	-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+	-o-transition-duration: 0.5s; /*Opera duration version*/
+	margin: 0 10px 5px 0; /*margin between images*/
+	}
+.item img:hover{
+	-webkit-transform:scale(0.8); /*Webkit: Scale up image to 1.2x original size*/
+	-moz-transform:scale(0.8); /*Mozilla scale version*/
+	-o-transform:scale(0.8); /*Opera scale version*/}
