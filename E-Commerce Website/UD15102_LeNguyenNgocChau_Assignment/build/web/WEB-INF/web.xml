@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>com.poly.servlet.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductController</servlet-name>
+        <servlet-class>com.poly.servlet.ProductController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserController</servlet-name>
+        <servlet-class>com.poly.servlet.UserController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserRegController</servlet-name>
+        <servlet-class>com.poly.servlet.UserRegController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/LoginController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductController</servlet-name>
+        <url-pattern>/ProductController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserController</servlet-name>
+        <url-pattern>/UserController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserRegController</servlet-name>
+        <url-pattern>/UserRegController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <context-param>
+        <description>Location to store uploaded file</description>
+        <param-name>file-upload</param-name>
+        <param-value>
+          C:\Users\CHAU\Desktop\Java4\UD15102_LeNguyenNgocChau_Assignment\web\img\
+        </param-value>
+    </context-param>
+</web-app>
